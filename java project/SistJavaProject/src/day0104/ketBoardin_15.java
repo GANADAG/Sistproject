@@ -34,7 +34,7 @@ public class ketBoardin_15 {
 		System.out.println("영어: "+eng);
 		System.out.println("수학: "+mat);
 		System.out.println("합계: "+tot);
-		System.out.println("평균: "+avg);
+		System.out.println("평균: "+avg );
 		
 
 	}
