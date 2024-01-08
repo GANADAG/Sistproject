@@ -21,12 +21,12 @@ public class book114_21 {
 	    } else {
 	    	System.out.println("점수가 70점 미만입니다");
 	    	System.out.println("등급은 D입니다");
-	    	
-	  			
-			
-		}
-		
-		
+
+
+
+	    }
+
+
 	}
 
 }
