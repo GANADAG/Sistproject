@@ -26,14 +26,15 @@ public class Book131_17 {
 		}else if(strNum.equals("2")) {
 			speed--;
 			System.out.println("현재속도= "+speed);
+		}else if(strNum.equals("3")) {
+			run = false;
 		}
 			
 		}
 		
+	   System.out.println("");
+			
 		
-	
-			
-			
+	}
 	}
 
-}

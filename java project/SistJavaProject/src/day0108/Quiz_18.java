@@ -25,8 +25,27 @@ public class Quiz_18 {
 		
 		Scanner sc=new Scanner(System.in);
 		
+		int su=0;
+		int yangsu=0;
+		int eumsu=0;
+		
+		while(true) {
+			System.out.println("숫자를 입력하세요");
+			su=sc.nextInt();
+			
+	
+			
+							
+			}
+			
+		}
+			
+		
+		
 
-	}
+		
+
+	
 		
 	public static void quiz_2() {
 			//반복해서 점수를 입력하고 (1~100) 0을 입력시 빠져나와 갯수와 합계와 평균을 구하시오(while true문)
