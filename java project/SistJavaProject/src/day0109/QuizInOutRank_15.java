@@ -33,7 +33,6 @@ public class QuizInOutRank_15 {
 			
 			for(int j=0;j<name.length;j++)
 			{
-				//비교되는 대상이 점수가 더 높으면 i번지의 등수를 1증가 시킨다
 				if(avg[i]<avg[j])
 					rank[i]++;
 			}
@@ -41,7 +40,7 @@ public class QuizInOutRank_15 {
 			
 		//3.출력
 		System.out.println("번호\t이름\t국어\t영어\t수학\t총점\t평균\t등수");
-	    System.out.println("===============================");
+	    System.out.println("=============================================================================================");
 	
 	    for(int i=0;i<name.length;i++)
 	    {

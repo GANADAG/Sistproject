@@ -38,7 +38,7 @@ public class Book175_14 {
 			//총점
 			tot+=score[i];
 		}
-		//등수구하기(다중for)
+		//등수구하기(중첩for)
 		for(int i=0;i<inwon;i++)
 		{
 			rank[i]=1;
