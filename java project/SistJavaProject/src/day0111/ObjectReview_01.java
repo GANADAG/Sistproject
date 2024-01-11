@@ -70,6 +70,7 @@ public class ObjectReview_01 {
 		System.out.println(phone);
 		System.out.println(Water);
 		
+		System.out.println();
 		
 	}
 

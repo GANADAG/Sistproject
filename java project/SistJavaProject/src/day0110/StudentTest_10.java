@@ -16,6 +16,7 @@ public class StudentTest_10 {
 				
 		Student.schooLName="쌍용고등학교";
 		
+		
 		System.out.println("**클래스 멤버값 출력");
 		System.out.println("학교명: "+Student.schooLName);
 		System.out.println("**학생1정보**");

@@ -58,6 +58,7 @@ public class ArrObTest_10 {
 			s1.writeData();
 			System.out.println("------------------");
 		}
+		
 	}
 
 }

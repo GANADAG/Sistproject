@@ -30,19 +30,29 @@ public class ArrObTest_11 {
 	public static void main(String[] args) 
 	{
 		// 4개 생성해서 출력할것
-		Shop [] shp=new Shop[4];
+		Shop [] shop=new Shop[4];
 		
-		shp[0]=new Shop("책상",5000000,"화이트");
-		shp[1]=new Shop("의자",4000000,"블랙");
-		shp[2]=new Shop("컴퓨터",1000000,"블랙");
-		shp[3]=new Shop("마우스",10000,"블랙");
+		//4개의 shop배열에 생성자로 통해서 생성 
 		
-		System.out.println("========================");
-		for (Shop s1:shp)
+		shop[0]=new Shop("책상",500000,"화이트");
+		shop[1]=new Shop("의자",400000,"실버");
+		shop[2]=new Shop("컴퓨터",1000000,"블랙");
+		shop[3]=new Shop("마우스",10000,"퍼플");
+		
+		//출력
+		Shop.showTitle();
+		for(Shop s:shop)
+			s.showShop();
+		System.out.println("================");
+		
+		
+		
+	/*	System.out.println("========================");
+		for (Shop s1:shop)
 		{
 			s1.showShop();
-			System.out.println("-------------------");
+			System.out.println("-----------------===");*/
 		}
 	}
 
-}
+

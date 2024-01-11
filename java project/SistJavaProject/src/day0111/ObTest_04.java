@@ -44,7 +44,8 @@ public class ObTest_04 {
 		car.setCarPrice(500000000);
 		car.setCarColor("화이트");
 		
-		System.out.println("[나의 자동차 정보]");
+		System.out.println("[나의 자동차 정보]"
+				+ "");
 		car.getCarInfo();
 		
 		System.out.println("[나의 새차 정보]");
