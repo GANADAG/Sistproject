@@ -1,7 +1,7 @@
 package day0110;
 
 class Ipgo{
-	private String sangName;
+	private String sangName; //private 접근 제한자: 개인적인 것으로 외부에서 사용될 수 없기 때문에 변환해줌
 	private int Price;
 	
 	//setter메서드
