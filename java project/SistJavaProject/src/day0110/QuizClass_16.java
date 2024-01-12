@@ -25,7 +25,7 @@ public class QuizClass_16 {
 	
 
 	
-	//snagpum은 메서가 아니면 다른클래스에서 접근불가
+	//sangpum은 메서가 아니면 다른클래스에서 접근불가
 	
 	/*
 	 * 생성후 초기값 준 후 출력하시오
