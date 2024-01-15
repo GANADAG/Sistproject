@@ -1,0 +1,23 @@
+package day0115;
+
+import java.util.LinkedList;
+
+public class Message {
+	
+	public String command;
+	public String to;
+	
+	public Message(String command,String to)
+	{
+		this.command=command;
+		this.to=to;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Queue<Message> messageQueue = new LinkedList<>();
+	}
+	
+	
+
+}

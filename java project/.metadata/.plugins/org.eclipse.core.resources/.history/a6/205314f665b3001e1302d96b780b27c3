@@ -1,0 +1,21 @@
+package day0115;
+
+public class Shop
+{
+	private String sangName;
+	private int su,dan;
+	
+	public Shop(String snagName,int su, int dan)
+	{
+		
+	}
+}
+//////////////////////////////////
+public class ShopArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

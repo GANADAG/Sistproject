@@ -60,8 +60,7 @@ public class Inheri_06 {
 		kang2.writeMart();
 		
 		
-		
-		
+			
 	}
 
 }

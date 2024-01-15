@@ -23,7 +23,8 @@ class Apple extends Fruit{
 	public void showMessage() {
 		// TODO Auto-generated method stub
 		System.out.println(Fruit.MESSAGE);
-		System.out.println("Apple_Message");
+		System.out.println("Apple_Messa"
+				+ "ge");
 	}
 }
 ////////////////////////////////////
