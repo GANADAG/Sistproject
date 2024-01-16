@@ -1,0 +1,31 @@
+package day0116;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.StringTokenizer;
+
+public class FiletokenException {
+	
+	public static void fileRead()
+	{
+		String fName="C:\\sist0403\\file\\info.txt";
+		FileReader fr=null;
+		BufferedReader br=null;
+		
+		try {
+			fr=new FileReader(fName);
+			br=new BufferedReader(fr);
+			
+
+			
+		    
+			
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

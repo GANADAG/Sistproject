@@ -1,0 +1,25 @@
+package day0116;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+
+public class FileTokenException_41 {
+	
+	public static void fileRead()
+	{
+		String fName="C:\\sist0403\\file\\info.txt";
+		FileReader fr=null;
+		BufferedReader br=null;
+		
+		fr=new FileReader(fName);
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
