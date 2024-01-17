@@ -1,0 +1,21 @@
+package day0116;
+
+/* **과일입고목록**
+ * 번호  과일명  수량   단가    총금액
+ * 1    바나나  10   2000  20000원
+ * 2    포도   20   15000
+ * 아보카도,30,3500
+ * 토마토,15,8000
+ * 오렌지,12,4000
+ */
+
+public class Quiz_15 {
+	
+	public static void 
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
