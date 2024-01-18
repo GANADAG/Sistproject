@@ -1,0 +1,43 @@
+package day0118;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Quiz extends JFrame {
+
+	Container cp;
+	JButton[] btn = new JButton[5];
+	String[] btnLabel = { "Pink", "black", "white","Gray","Yellow" };
+	Color[] btnColors = { Color.PINK, Color.BLACK,Color.WHITE,Color.GRAY,Color.yellow };
+
+	public Quiz(String title) {
+
+		super(title);
+		cp=this.getContentPane();
+		initDesign();
+		this.setBounds(300, 100, 600, 300);
+		cp.setBackground(new Color(255,255,200));
+
+
+
+		this.setVisible(true);
+	}
+	public void initDesign() 
+	{
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.BLUE);
+		
+		this.add(panel, BorderLayout.NORTH);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Quiz(",");
+	}
+
+}

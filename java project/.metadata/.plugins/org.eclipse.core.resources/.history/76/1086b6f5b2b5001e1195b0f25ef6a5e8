@@ -1,0 +1,29 @@
+package day0118;
+
+import java.awt.Color;
+
+public class SwingImageIcon_06 extends JFrame{
+
+public static void main(String[] args) 
+
+	Container cp;
+	//이미지 아이콤 가져온다
+
+	ImageIcon icon1=new ImageIcon("C:\\sist0403\\Swingimage\\");
+	ImageIcon icon1=new ImageIcon("");
+	ImageIcon icon1=new ImageIcon("");
+	ImageIcon icon1=new ImageIcon("");
+	ImageIcon icon1=new ImageIcon("");
+
+}
+
+public SwingImageIcon_06 (String title)
+super(title);
+cp=this.getContentPane();
+
+
+this.setBounds(300, 100, 300, 300);
+cp.setBackground(new Color(255,255,200));
+
+this.setVisible(true);
+}

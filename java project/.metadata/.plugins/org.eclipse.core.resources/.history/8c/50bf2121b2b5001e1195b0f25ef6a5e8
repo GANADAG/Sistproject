@@ -1,0 +1,67 @@
+package day0118;
+
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class SwingImage extends JFrame {
+	
+	Container cp;
+	JButton btn1,btn2,btn3,btn4,btn5;
+	
+	//이미지 아이콘 가져오기
+	ImageIcon icon1=new ImageIcon("C:\\sist0403\\Swingimage\\LEFT.GIF");
+	ImageIcon icon2=new ImageIcon("C:\\sist0403\\Swingimage\\leftDown.gif");
+	ImageIcon icon3=new ImageIcon("C:\\sist0403\\Swingimage\\chick.gif");
+	ImageIcon icon4=new ImageIcon("C:\\sist0403\\Swingimage\\an08.gif");
+	ImageIcon icon5=new ImageIcon("C:\\sist0403\\Swingimage\\an07.gif");
+	
+	public SwingImage (String title) {
+		super(title);
+		cp=this.getContentPane();
+		
+
+		this.setBounds(300, 100, 300, 300);
+		cp.setBackground(new Color(255,255,200));
+		
+		this.setVisible(true);
+	}
+	public void initDesign() 
+	{
+		//2행2열
+		this.setLayout(new GridLayout(2,2));
+		btn1 = new JButton("hello",icon1);
+		btn1.setHorizontalTextPosition(JButton.CENTER);//텍스트가로위치
+		btn1.setHorizontalTextPosition(JButton.BOTTOM);//세로위치
+		this.add(btn1);
+		
+		btn1.setRolloverIcon(icon2);
+		btn1.setRolloverIcon(icon3);
+		
+		//버튼2
+		btn2=new JButton(icon4);
+		this.add(btn2);
+		
+		//버튼3
+		btn3=new JButton("스윙버튼");
+		this.add(btn3);
+		
+		//버튼4
+		btn4=new JButton("안녕,icon5");
+		this.add(btn4);
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new SwingImage("이미지버튼");
+	}
+
+}

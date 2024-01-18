@@ -1,0 +1,50 @@
+package day0118;
+
+import java.awt.Color;
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class SwingArrEvent_08 extends JFrame {
+
+	Container cp;
+	JButton [] btn=new JButton[6];
+	String[] btnLabel= {"Red","Green","Blue","Magenta","Gray","Yellow"};
+	Color[] btnColors= {Color.RED,Color.GREEN,Color.BLUE,Color.MAGENTA,Color.GRAY,Color.YELLOW};
+	
+	public SwingArrEvent_08 (String title) {
+		super(title);
+		cp=this.getContentPane();
+
+		this.setBounds(300, 100, 300, 300);
+		cp.setBackground(new Color(255,255,200));
+		initDesign()
+		this.setVisible(true);
+	}
+	
+	//디자인단계
+	public void initDesign()
+	{
+		//panel은 기본이 flowlayout
+		JPanel panel=new JPanel();
+		panel.setBackground(Color.ORANGE);
+		
+		this.add(panel.BorderLayout.EAST);//프에임의 상단에 패널배치
+		
+		//버튼생성
+		for(int i=0;i<btn.length;i++)
+		{
+			//버튼 6개생성
+		}
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
