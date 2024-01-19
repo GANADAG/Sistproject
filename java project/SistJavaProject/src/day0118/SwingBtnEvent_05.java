@@ -44,8 +44,9 @@ public class SwingBtnEvent_05 extends JFrame implements ActionListener{
 		//이벤트객체
 		btn1.addActionListener(this);
 		btn2.addActionListener(this);
-			
-		this.add(btn1);
+		
+		//이벤트객체 this add와 연결 
+		this.add(btn1);//컴포넌트
 		this.add(btn2);
 		
 	}

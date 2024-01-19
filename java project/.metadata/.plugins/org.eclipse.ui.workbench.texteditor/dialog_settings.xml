@@ -10,7 +10,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="Source"/>
 		<list key="findhistory">
+			<item value="Source"/>
+			<item value="e.getSource"/>
 		</list>
 		<list key="replacehistory">
 		</list>
