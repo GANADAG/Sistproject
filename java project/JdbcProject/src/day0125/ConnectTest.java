@@ -43,7 +43,7 @@ public class ConnectTest {
 			// TODO Auto-generated catch block
 			// e.printStackTrace();
 			System.out.println("오라클 연결실패");
-			// 해결방안
+			// 
 			// JRE폴더 오른쪽 버튼 클릭 후
 			// build path-> configure build path 클릭 후 폴더 선택해서 업로드
 		} finally {
@@ -62,7 +62,7 @@ public class ConnectTest {
 		}
 	}
 
-	////////////////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////////////////////
 	
 	public void connectshop() {
 		Connection conn = null;
@@ -104,7 +104,7 @@ public class ConnectTest {
 			}
 		}
 	}
-//////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
 	public void sawonRead()
 	{
 		//부서별 인원수 평균급여 구하기
@@ -154,9 +154,9 @@ public class ConnectTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ConnectTest ct = new ConnectTest();
-		//ct.connectSawon();
+		ct.connectSawon();
 		//ct.connectshop();
-		ct.sawonRead();
+		//ct.sawonRead();
 	}
 
 }
